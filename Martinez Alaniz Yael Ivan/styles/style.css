@@ -1,34 +1,62 @@
-body{
-    background-color: azure;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:22px;
-    color: rgb(7, 64, 78)
+nav{
+    display:grid;
+    color: azure;/*Se establece el color de letra*/
+    grid-template-columns: 1fr auto;/*Define numero de columnas en la pista orizontal*/
+    align-items: center;/*Se alinean los objetos a el centro*/
+    background: rgb(7, 64, 78);/*Se establece el color de fondo de la clase nav*/
+    font-family: sans-serif;/*Se establece el tipo de fuente*/
+    position:fixed;/*Se establece una posicion fija*/
+    top: 0px;;/**/
+    width:100%;
+    }
+    nav .logo{
+    font-size: 24px;/*Se establece el tamaño de la letra*/
+    font-weight:black;
+    color: azure;/*Se establece el color de letra*/
+    }
+    nav .barnav{
+    display:grid;/*Cuadricula de una sola columna*/
+    grid-template-columns: repeat(4,auto); /*Se establece una pista orizontal*/
+    margin-right: 30px;/*Se establece margen derecho de 30px*/
+    }
+    nav .barnav div{
+    padding: 25px 30px;
+    }
+    nav .barnav div:hover{
+    cursor: pointer;/*Se establece un cursor que se puede presionar*/
+    background:cadetblue;/*Se define el color de fondo que tenga cada div al momento de señalarlo con el mouse*/
+    }
+.contenido{
+    background-color: azure;/*Se define el color de fondo de la clase llamada contenido*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*Se establece el tipo de fuente*/
+    font-size:22px;/*Se define el tamaño de letra*/
+    color: rgb(7, 64, 78);/*Se define el color de la letra*/
 }
 
 h1{
-    font-size:30px;
-    color:rgb(4, 29, 85);
+    font-size:30px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 
 }
 
 h2{
-    font-size:25px;
-    color:rgb(4, 29, 85);
+    font-size:25px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 }
 h3{
-    font-size:25px;
-    color:rgb(4, 29, 85);
+    font-size:25px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 }
 h4{
-    font-size:25px;
-    color:rgb(4, 29, 85);
+    font-size:25px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 }
 h5{
-    font-size:25px;
-    color:rgb(4, 29, 85);
+    font-size:25px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 }
 
 h6{
-    font-size:25px;
-    color:rgb(4, 29, 85);
+    font-size:25px;/*Se establece el tamaño de la letra*/
+    color:rgb(4, 29, 85);/*Se establece el color de letra*/
 }
